@@ -4,7 +4,8 @@
   "description": "Errand boy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint src/** test/**",
+    "test": "mocha --ui bdd --reporter spec test/**/*-spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   "homepage": "https://github.com/WenbangWang/errand-boy#readme",
   "devDependencies": {
     "chai": "3.5.0",
+    "eslint": "3.0.1",
+    "eslint-config-standard": "5.3.5",
+    "eslint-loader": "1.4.1",
+    "eslint-plugin-promise": "2.0.0",
+    "eslint-plugin-standard": "2.0.0",
     "mocha": "3.0.2",
     "sinon": "1.17.5"
   },
