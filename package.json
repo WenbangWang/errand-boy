@@ -1,0 +1,27 @@
+{
+  "name": "errand-boy",
+  "version": "0.0.0",
+  "description": "Errand boy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WenbangWang/errand-boy.git"
+  },
+  "author": "Wenbang Wang <wenbang.wang@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/WenbangWang/errand-boy/issues"
+  },
+  "homepage": "https://github.com/WenbangWang/errand-boy#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2",
+    "sinon": "1.17.5"
+  },
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
