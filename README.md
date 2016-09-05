@@ -25,7 +25,7 @@ Link to related resource.
 
 
 *Element*
-The smallest element meta data. 
+The smallest element meta data representation. 
 ```
 {
     link: Link,
@@ -40,11 +40,12 @@ From ```{baseUrl}/file/```, the URI components will represent the directory stru
 
 For example, the directory structure is ```/path/to/directory``` then the request is ```{baseUrl}/file/path/to/directory```. 
 
-*Response*
+**{baseUrl}/file/path/to/directory**
+*GET*
 ```
 {
     self: Element,
-    child: [Element]
+    children: [Element]
 }
 ```
 

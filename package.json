@@ -1,11 +1,11 @@
 {
   "name": "errand-boy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Errand boy",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/** test/**",
-    "test": "mocha --ui bdd --reporter spec test/**/*-spec.js"
+    "test": "./node_modules/.bin/mocha --ui bdd --reporter spec test/**/*-spec.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
     "sinon": "1.17.5"
   },
   "dependencies": {
-    "express": "4.14.0"
+    "bluebird": "3.4.6",
+    "express": "4.14.0",
+    "morgan": "1.7.0"
   }
 }
